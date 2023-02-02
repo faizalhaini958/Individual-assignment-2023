@@ -1,0 +1,127 @@
+body    
+    {
+        background-image: url("images/logo-uitm.png");
+        background-color: antiquewhite;
+    }
+
+p
+    {
+        color: green;
+    }
+
+table
+    {
+        border-collapse: collapse;
+        border-color: black;
+        text-align: center;
+    }
+
+tr,td,th
+    {
+        border:1px solid;
+        padding: 4px;
+    }
+
+tr  
+    {
+        background-color: darkgrey;
+    }
+
+tr:nth-child(even)
+    {
+        background-color: gainsboro;
+    }
+
+tr:hover
+    {
+        background-color: gold;
+    }
+
+div.logo
+    {
+        float:left;
+        width: 30%;
+        height: 100px;
+        background-color: aqua;
+    }
+
+div.menu
+    {
+        float:left;
+        width: 70%;
+        height: 100px;
+        background-color:darkgoldenrod;
+    }
+
+div.slider
+    {
+        float:left;
+        width: 100%;
+        height: 400px;
+        background-color: aquamarine;
+    }
+
+div.kotak1
+    {
+        float:left;
+        width: 25%;
+        height: 200px;
+        background-color: darkmagenta;
+    }
+
+div.kotak2
+    {
+        float:left;
+        width: 25%;
+        height: 200px;
+        background-color:darkorchid;
+    }
+
+div.kotak3
+    {
+        float:left;
+        width: 25%;
+        height: 200px;
+        background-color: darkmagenta;
+    }
+
+div.kotak4
+    {
+        float:left;
+        width: 25%;
+        height: 200px;
+        background-color:darkorchid;
+    }
+
+div.map
+    {
+        float: left;
+        width: 100%;
+        height: 500px;
+        
+    }
+
+ol
+    {
+        list-style-type:upper-alpha;
+    }
+
+ul  
+    {
+        list-style-type: circle;
+    }
+
+a
+    {
+        text-decoration:none;
+    }
+
+.fa-facebook
+    {
+        color: navy;
+    }
+
+.fa-facebook:hover  
+    {
+        color:dodgerblue;
+    }
